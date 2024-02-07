@@ -19,7 +19,7 @@ body{
     border-radius: 10px;
     border-width: 5px;
     border-color: rgb(234, 234, 242);
-    margin-left: 500px;
+    margin-left: 540px;
     padding: 0px 20px 10px;
 }
 .form .textlabel{
@@ -104,4 +104,11 @@ nav ul li a{
 }
 a:hover{
     color:white;
+}
+marquee{
+    font-size: 15px;
+    color:forestgreen;
+    
+    
+    
 }
