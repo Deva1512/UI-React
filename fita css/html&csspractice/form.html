@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <form action="signup.html" method="GET" enctype="multipart/form-data">
+        <div>
+        <label for="username">User name:</label>
+        <input  type='text' name="username" id="username" autocomplete="off" placeholder="enter name" maxlength="10" required="required">
+        </div>
+         <div>
+        <label for="password">Password:</label>
+        <input type="password" name="password" id="password" placeholder="enter password" required="required" minlength="8">
+        </div>
+        <div>
+            <label for="yearofbirth">Dateofbirth:</label>
+            <input type="date" name="yearofbirth" maxlength="4" min="1990-01-01" max="2024-01-01">
+        </div>
+        <div>
+            <label for="message">
+                Message
+            </label>
+            <textarea name="message" id="message">message</textarea>
+        </div>
+        <div>
+           <input type="checkbox" name="smsalert" id="smsalert">
+           <label for="smsalert">Sms alaert</label>
+        </div>
+        <div>
+            <input type="radio" name="gender" id="Male" value="male">
+            <label for="Male">Male</label>
+        </div>
+        <div>
+            <input type="radio" name="gender" id="female" value="female">
+            <label for="female">Female</label>
+        </div>
+        <div>
+            <select name="state" id="state" >
+                <option value="Tamilnadu" label="Tamilnadu"> </option>
+                <option value="Andra" label="Andra"></option>
+            </select>
+        </div>
+        <div>
+            <label for="file">Resume</label>
+            <input type="file" id="file" name="file">
+        </div>
+    <button type="submit">login</button>
+    <button type="reset">reset</button>
+
+    </form>
+</body>
+</html>
