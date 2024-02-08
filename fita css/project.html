@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" type="text/css" href="project.css">
+</head>
+<body>
+<nav>
+    <label class="logo">Form page</label>
+    <ul>
+        <li><a href="">Home</a></li>
+        <li><a href="">products</a></li>
+        <li><a href="">Services</a></li>
+        <li><a href="">Contact-Us</a></li>
+        
+    </ul>
+</nav>
+<marquee direction="left"><p>Sumbit Ur Profile</p></marquee>
+<div class="form">
+    <h3 style="text-align: center;">Form</h3>
+    <form>
+        <div class="textinput">
+        <label class="textlabel" for="username">User name:</label>
+        <input type="text" name="username" id="username" placeholder="Enter Name Here" maxlength="20" required> <br>
+    </div>
+    <div class="textinput">
+        <label class="textlabel" for="email">Email:</label>
+        <input type="email" name="email" id="email" placeholder="Enter Email Here" required><br>
+    </div>
+    <div class="textinput">  
+        <label class="textlabel">Age:</label>
+        <input type="number" name="age" min="10" max="60" placeholder="Enter Age Here" required><br>
+    </div> 
+    <div class="textinput">  
+        <label class="textlabel" >Phone:</label>
+        <input type="tel" name="phone" pattern="[0-9]{10}" placeholder="Enter NO Here" required><br>
+    </div>
+    <div class="date">
+        <label>Date of Birth:</label>
+        <input type="date">
+    </div>
+
+<div class="radio"> 
+<input type="radio" name="gender" id="male" value="male">
+<label for="male">Male</label>
+<input type="radio" name="gender" id="female" value="female">
+<label for="female">Female</label>
+<input type="radio" name="gender" id="others">
+<label>Others</label>
+</div>
+<div class="resume">
+    <label for="file">Resume</label>
+    <input type="file" name="file">
+</div>
+    <div class="login">   
+        <button>Sumbit</button> 
+    </div>  
+    </form>  
+</body>
+</html>

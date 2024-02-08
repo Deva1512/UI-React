@@ -1,0 +1,25 @@
+body{
+    background-color: blue;
+    background-image:url(images/seal.jpg) ;
+    background-repeat: repeat;
+    background-position: center;
+    /* background:red url() no-repeat right top;(shorthand method)(color,bg,repeat,position)(coolors.co) */
+}
+
+p{
+    font-family: 'Trebuchet MS';
+    font-size: 30px;
+    color:white;
+    /* googlefont for font choose */
+}
+p1{
+    font-family: 'Honk', system-ui;
+    font-size :30px;
+    line-height: 1.5;
+    letter-spacing: 1px;
+    word-spacing: 1px;
+    text-align: justify;
+    text-decoration:none;
+    text-transform:unset;}
+    
+
