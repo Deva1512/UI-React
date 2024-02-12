@@ -5,15 +5,27 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
     <style>
+        body{
+            background-color: rgb(65, 49, 130);
+        }
         .para1{
-            background-color: blue;
+            color: blue;
     
         }
         .para2{
-            background-color: brown;
+            color: brown;
         }
         .para3{
-            background-color: chartreuse;
+            color: chartreuse;
+        }
+        @media screen and (min-width:600px){
+            body{
+                background-color: cornflowerblue;
+                color:black;
+            }
+            .container p{
+                font-size: 15px;
+            }
         }
     </style>
 </head>

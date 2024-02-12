@@ -72,7 +72,8 @@ nav{
     background-color: rgb(11, 147, 36);
     height:80px;
     width: 100%;
-    margin-bottom: 20px;
+    margin-bottom: 10px;
+    /* position: fixed; */
      
 }
 label.logo{
@@ -108,7 +109,7 @@ a:hover{
 marquee{
     font-size: 15px;
     color:forestgreen;
-    
+    /* margin-bottom: 180px; */
     
     
 }
