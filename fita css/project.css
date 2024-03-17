@@ -11,8 +11,9 @@ body{
 
 }
 .form{
-    background-color:  rgba(19, 108, 7, 0.59);
+    background-color:  rgba(236, 147, 51, 0.968);
     width: 400px;
+    /* height: 500px; */
     color:rgb(6, 88, 6);
     font-size: 30px;
     border-style: solid;
@@ -73,7 +74,8 @@ nav{
     height:80px;
     width: 100%;
     margin-bottom: 10px;
-    /* position: fixed; */
+    position: sticky;
+    top:0;
      
 }
 label.logo{

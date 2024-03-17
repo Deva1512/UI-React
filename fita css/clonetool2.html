@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <img id="player" src = "images/cat.jpeg"></img>
+
+<script>
+    var x_click;
+    var y_click;
+    var player = document.getElementById("player");
+    document.addEventListener("click", move_player)
+
+    function move_player(e) {
+        x_click = e.clientX;
+        y_click = e.clientY;
+
+        player.style.left = x_click - player.clientWidth/2 + "px";
+        player.style.top = y_click - player.clientHeight/2 + "px";  
+    }
+</scirpt>
+</body>
+</html>
